@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman',
+     Times, serif;
+}
+.wrapper{
+    background-color: wheat;
+    width: 600px;
+    padding: 30px;
+    margin: 30px auto 0;
+}
+
+.wrapper h2{
+    
+    color: blueviolet;
+    font-size: 26px;
+    padding: 10px;margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+
+h4 {
+    padding-bottom: 5px;
+    color: blueviolet;
+}
+
+.input-group{
+    margin-bottom: 8px;
+    width: 100px;
+    display: flex;
+    flex-direction: row ;
+    position: relative;
+    padding: 5px 0;
+}
